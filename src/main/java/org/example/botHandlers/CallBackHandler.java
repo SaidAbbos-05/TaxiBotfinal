@@ -94,7 +94,6 @@ public class CallBackHandler {
 
 
     private void manzilYaratishButton(Long chatId) {
-        MessageHandler.deleteMessages(chatId.toString() , 0);
         SendMessage message = new SendMessage();
         message.setChatId(chatId);
         message.setText(IconButton.qayerga.formatted("viloyat"));
