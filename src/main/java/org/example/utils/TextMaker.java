@@ -45,4 +45,39 @@ public class TextMaker {
                 ( Lokatsiya jo'nating )
                 Mashina sizni o'sha manzilda olib boradi.😊
             """;
+
+    public static String elon = """
+                  E'lon muvaffaqiyatli yaratildi!
+            %s ning e'loni faollashtirishni kutmoqda.
+            🗺️ Jo'nash manzili %s , %sdan 
+            🗺️ Yetib borish manzili %s , %sga.
+            ⌚ Soat %sda.
+            ☎️ Telefon raqam: 
+             %s
+            
+            """;
+    public static String boshqaVaqtnikiriting = """
+            ⌚ Ketish vaqtni quyidagi usulda kiriting:
+            Namuna -> 12:00
+            """;
+    public static String oldingiMijoz = """
+            👋👋👋 Assalomu aleykum hurmali %s !
+                    Botga xush kelibsiz.
+                    
+            """;
+    public static String xaydovchilaruchun = """
+            Mavjud barcha e'lonlarni ko'rish uchun
+             ✅ E'LONLARNI KO'RISH.
+            Sizga kerak yo'nalishdagi e'lonlarni ko'rish uchun
+             ✅ SARALASH.
+            
+                    
+            """;
+
+    public static String saralash = """
+            
+            """;
+
+    public static String bundayElonYoq = "Siz hohlagan e'lonlar hali mavjud emas";
+    public static String kanalHaqida  = "Bu kanalda hamma e'lonlar saqlanadi";
 }
